@@ -1,4 +1,4 @@
-﻿/*!
+/*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -10,8 +10,10 @@ body {
 }
 
 #title-top{
-	font-size: 50px;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding:0px;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+	transform: scale(0.8);
 }
 
 #top{
