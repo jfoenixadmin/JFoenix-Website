@@ -121,6 +121,10 @@ body {
 	display: none;
 	margin-left: 220px;
 }
+#more-controls{
+    display: none;
+    margin-left: 220px;
+}
 
 #license-container{
 	display: none;
@@ -366,11 +370,8 @@ hr {
     border-width: 2px;
 }
 
-/*section:nth-child(even) {*/
-    /*background: #EEE;*/
-/*}*/
-section{
-    background : #FAFAFA;
+section:nth-child(even) {
+    background: #EEE;
 }
 
 .text{
