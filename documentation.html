@@ -3,328 +3,380 @@
 
 <head>
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<link href="syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet"
-	type="text/css" />
-<link href="syntaxhighlighter_3.0.83/styles/shThemeDefault.css"
-	rel="stylesheet" type="text/css" />
+    <link href="syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet"
+          type="text/css" />
+    <link href="syntaxhighlighter_3.0.83/styles/shThemeDefault.css"
+          rel="stylesheet" type="text/css" />
 
-<title>JFoenix</title>
-<link rel="shortcut icon" href="img/jfoenix.png" />
+    <title>JFoenix</title>
+    <link rel="shortcut icon" href="img/jfoenix.png" />
 
-<!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom CSS -->
-<link href="css/jphoenix.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/jphoenix.css" rel="stylesheet">
 
-<!-- Custom Fonts -->
-<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"
-	type="text/css">
-<link href="fonts/google-fonts/google-fonts.css" rel="stylesheet"
-	type="text/css">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
+    <link href="fonts/google-fonts/google-fonts.css" rel="stylesheet"
+          type="text/css">
 
 
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<style type="text/css">
-.auto-style1 {
-	margin-right: 0px;
-}
-</style>
+    <style type="text/css">
+        .auto-style1 {
+            margin-right: 0px;
+        }
+    </style>
 
 </head>
 
 <body id="page-top" class="index">
 
-	<nav id="top"
-		class="dark-grey-background navbar navbar-default navbar-fixed-top">
+<nav id="top"
+     class="dark-grey-background navbar navbar-default navbar-fixed-top">
 
-		<div id="form" class="col-xs-12">
-			<div class="input-group">
-				<input type="text" class="form-control"
-					placeholder="Search Documentation" name="search" id="search">
-				<div class="input-group-btn">
-					<button class="btn btn-default" type="submit">
-						<i class="glyphicon glyphicon-search"></i>
-					</button>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header page-scroll">
-				<div class="logo">
-					<a id="title-top" class="navbar-brand page-scroll" href="#header"><img src="img/logo-JFX.png" alt="JFoeniX"></a>
-					<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span> <span
-							class="icon-bar"></span> <span class="icon-bar"></span> <span
-							class="icon-bar"></span>
-					</button>
-				</div>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse"
-				id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="hidden"><a href="index.html"></a></li>
-					<li><a class="page-scroll" href="index.html#start">Get
-							Started</a></li>
-					<li><a class="page-scroll" href="index.html#licenseLink">License</a>
-					</li>
-					<li class="active"><a class="page-scroll"
-						href="documentation.html">Documentation</a></li>
-					<li class="dropdown" onselectstart="return false;" id="aboutLink">
-						<a class="dropdown-toggle" data-toggle="dropdown">About <b
-							class="caret"></b></a>
-						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="team.html">Team</a></li>
-							<li><a href="sponsor.html">Sponsors</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">Contact Us</a></li>
-					<li class="social-buttons last"><a href="#" class="icons"><i
-							class="fa fa-twitter"></i></a></li>
-
-					<li class="social-buttons last"><a href="#" class="icons"><i
-							class="fa fa-github"></i></a></li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
-	<br>
-
-	<div id="sidebar">
-
-		<div id="sideList">
-
-			<div id="search-menu-holder">
-				<ul>
-					<li><a href="#">Search Result</a>
-						<ul id="searchResult" class="auto-fit"></ul></li>
-				</ul>
-			</div>
-
-
-			<div id="side-menu-holder">
-				<ul>
-					<li><a href="#">Getting Started</a>
-						<ul>
-							<li>Download</li>
-							<li>Setup</li>
-						</ul></li>
-					<li><a href="#">Basic Components</a>
-						<ul>
-							<li>Button</li>
-							<li>Check Box</li>
-							<li>Combo Box</li>
-							<li>Hamburger</li>
-							<li>List View</li>
-							<li>Input Field</li>
-							<li>Progress Bar</li>
-							<li>Radio Button</li>
-							<li>Slider</li>
-							<li>Spinner</li>
-							<li>Tab Pane</li>
-							<li>Toggle Button</li>
-						</ul></li>
-					<li><a href="#">License</a>
-						<ul>
-							<li>License</li>
-						</ul></li>
-				</ul>
-			</div>
-
-
-		</div>
-	</div>
-
-	<!--header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Documentation</div>
-                <div class="intro-heading">Your Guide to jfoenix</div>
+    <div id="form" class="col-xs-12">
+        <div class="input-group">
+            <input type="text" class="form-control"
+                   placeholder="Search Documentation" name="search" id="search">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
             </div>
         </div>
-    </header-->
+    </div>
 
-	<div id="info">
-		<section id="Download">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Download</h2>
-					</div>
-					<p class="doc-text">JFoenix is an open source java library,
-						that implements Google Material Design using java components. To
-						start using JFoenix, all you have to is download it from GitHub.
-						You can find JFoneix source files along with a compiled jar file
-						on the following link:</p>
-					<div style="display: table; margin: 0 auto; margin-top: 50px;">
-						<div>
-							<a href="https://github.com/jfoenixadmin/JFoenix"> <img
-								id="github" src="img/download.svg" id="download"
-								style="margin-left: 0px;">
-							</a>
-						</div>
-					</div>
-				</div>
-				<br />
-			</div>
-		</section>
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <div class="logo">
+                <a id="title-top" class="navbar-brand page-scroll" href="#header"><img src="img/logo-JFX.png" alt="JFoeniX"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span
+                        class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
 
-		<section id="Setup">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Setup</h2>
-					</div>
-					<p class="doc-text">Once JFoenix jar file is included in your
-						project, you can use JFoenix components.</p>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse"
+             id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden"><a href="index.html"></a></li>
+                <li><a class="page-scroll" href="index.html#start">Get
+                    Started</a></li>
+                <li><a class="page-scroll" href="index.html#licenseLink">License</a>
+                </li>
+                <li class="active"><a class="page-scroll"
+                                      href="documentation.html">Documentation</a></li>
+                <li class="dropdown" onselectstart="return false;" id="aboutLink">
+                    <a class="dropdown-toggle" data-toggle="dropdown">About <b
+                            class="caret"></b></a>
+                    <ul class="dropdown-menu" id="dropdown">
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="sponsor.html">Sponsors</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="social-buttons last"><a href="#" class="icons"><i
+                        class="fa fa-twitter"></i></a></li>
 
-					<p style="font-size: 2.75rem; font-weight: 500;">Scene Builder
-						Setup</p>
-					<p class="doc-text">To import JFoenix components in scene
-						builder do the follwing:
-					<ul class="doc-text">
-						<li>click on "Import JAR/FXML file" in scene builder</li>
-						<li>select JFoenix jar file</li>
-						<li>choose the components to import into scene builder</li>
-					</ul>
-					</p>
-				</div>
-				<br />
-			</div>
-		</section>
-	</div>
+                <li class="social-buttons last"><a href="#" class="icons"><i
+                        class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<br>
 
-	<div id="controls">
-		<section id="Button">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Button (JFXButton)</h2>
-					</div>
-					<p class="doc-text">
-						JFoenix provides 2 main button types as described in material
-						design. Flat buttons and raised buttons. <br /> <strong>NOTE
-							:</strong> FAB (Floating Action Button) can be created by rounding the
-						edges of a raised button into circular shape. <br>
-					</p>
+<div id="sidebar">
 
-					<div style="padding: 15px;">
+    <div id="sideList">
+
+        <div id="search-menu-holder">
+            <ul>
+                <li><a href="#">Search Result</a>
+                    <ul id="searchResult" class="auto-fit"></ul></li>
+            </ul>
+        </div>
+
+
+        <div id="side-menu-holder">
+            <ul>
+                <li><a href="#">Getting Started</a>
+                    <ul>
+                        <li>Download</li>
+                        <li>Setup</li>
+                    </ul></li>
+                <li><a href="#">Basic Components</a>
+                    <ul>
+                        <li>Rippler</li>
+                        <li>Button</li>
+                        <li>Check Box</li>
+                        <li>Combo Box</li>
+                        <li>Hamburger</li>
+                        <li>Input Fields</li>
+                        <li>Progress Bar</li>
+                        <li>Radio Button</li>
+                        <li>Slider</li>
+                        <li>Spinner</li>
+                        <li>Tab Pane</li>
+                        <li>Toggle Button</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Adv. Components</a>
+                    <ul>
+                        <li>List View</li>
+                        <li>Tree Table View</li>
+                        <li>Pickers</li>
+                        <li>Dialog</li>
+                        <li>Popup</li>
+                        <li>Drawer</li>
+                        <li>Decorator</li>
+                        <li>Masonry</li>
+                        <li>Badge</li>
+                        <li>Snack Bar</li>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">License</a>
+                    <ul>
+                        <li>License</li>
+                    </ul></li>
+            </ul>
+        </div>
+
+
+    </div>
+</div>
+
+<!--header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Documentation</div>
+            <div class="intro-heading">Your Guide to jfoenix</div>
+        </div>
+    </div>
+</header-->
+
+<div id="info">
+    <section id="Download">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Download</h2>
+                </div>
+                <p class="doc-text">JFoenix is an open source java library,
+                    that implements Google Material Design using java components. To
+                    start using JFoenix, all you have to is download it from GitHub.
+                    You can find JFoneix source files along with a compiled jar file
+                    on the following link:</p>
+                <div style="display: table; margin: 0 auto; margin-top: 50px;">
+                    <div>
+                        <a href="https://github.com/jfoenixadmin/JFoenix"> <img
+                                id="github" src="img/download.svg" id="download-link"
+                                style="margin-left: 0px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Setup">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Setup</h2>
+                </div>
+                <p class="doc-text">Once JFoenix jar file is included in your
+                    project, you can use JFoenix components.</p>
+
+                <p style="font-size: 2.75rem; font-weight: 500;">Scene Builder
+                    Setup</p>
+                <p class="doc-text">To import JFoenix components in scene
+                    builder do the follwing:
+                <ul class="doc-text">
+                    <li>click on "Import JAR/FXML file" in scene builder</li>
+                    <li>select JFoenix jar file</li>
+                    <li>choose the components to import into scene builder</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="controls">
+
+    <section id="Rippler">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Rippler</h2>
+                </div>
+                <p class="doc-text">
+                    JFXRippler provides the material design ripple effect that can be used by other controls. <br>
+                </p>
+
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-JFXButton jfoenixButton = new JFXButton("JFoenix Button");
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+Label label = new Label("TEST");
+label.setStyle("-fx-background-color:WHITE;-fx-padding:20");
+JFXRippler rippler = new JFXRippler(label);
+                        </pre>
+                </div>
 
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-rippler</em></p>
+
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-rippler-recenter</div>
+                        <div>Boolean</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-rippler-fill</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-rippler-radius</div>
+                        <div>Number</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-mask-type</div>
+                        <div>CIRCLE &nbsp;&nbsp; | &nbsp; &nbsp; RECT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Button">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Button</h2>
+                </div>
+                <p class="doc-text">
+                    JFoenix provides 2 main button types as described in material
+                    design. Flat buttons and raised buttons. <br /> <strong>NOTE
+                    :</strong> FAB (Floating Action Button) can be created by rounding the
+                    edges of a raised button into circular shape. <br>
+                </p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXButton jfoenixButton = new JFXButton("JFoenix Button");
 JFXButton button = new JFXButton("Raised Button".toUpperCase());
 button.getStyleClass().add("button-raised");
-                            
+                        </pre>
+                    <pre
+                            class="brush:css; gutter:true; smart_tabs:true;toolbar:false;">
 .button-raised{
     -fx-padding: 0.7em 0.57em;
     -fx-font-size: 14px;
-    -fx-button-type: RAISED;
+    -jfx-button-type: RAISED;
     -fx-background-color: rgb(77,102,204);
     -fx-pref-width: 200;
     -fx-text-fill: WHITE;
 }
                         </pre>
-					</div>
+                </div>
 
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-button</div>
-						</div>
-						<div class="style-property-container">
-							<div>-fx-button-type</div>
-							<div>FLAT (default) &nbsp;&nbsp; | &nbsp; &nbsp; RAISED</div>
-						</div>
 
-					</div>
-				</div>
-				<br /> <img class="shot" src="img/shots/shot_btn.gif"
-					alt="JFX Button">
-			</div>
-		</section>
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-button</em></p>
 
-		<section id="CheckBox">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Check Box (JFXCheckBox)</h2>
-					</div>
-					<p class="doc-text">JFoenix provides a check box with the same
-						functionality as java check box, however with an enhanced
-						animation and ripple effect.</p>
-					<div style="padding: 15px;">
-						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-button-type</div>
+                        <div>FLAT (default) &nbsp;&nbsp; | &nbsp; &nbsp; RAISED</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="CheckBox">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Check Box</h2>
+                </div>
+                <p class="doc-text">JFoenix provides a check box with the same
+                    functionality as java check box, however with an enhanced
+                    animation and ripple effect.</p>
+                <div style="padding: 15px;">
+						<pre class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
 JFXCheckBox checkBox = new JFXCheckBox("JFX CheckBox");
 checkBox.getStyleClass().add("custom-jfx-check-box");
-
+                        </pre>
+                    <pre class="brush:css; gutter:true; smart_tabs:true;toolbar:false;">
 .custom-jfx-check-box{
-    -fx-checked-color: RED;
-    -fx-unchecked-color: BLACK;
+    -jfx-checked-color: RED;
+    -jfx-unchecked-color: BLACK;
 }
                         </pre>
-					</div>
+                </div>
 
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-check-box</div>
-						</div>
-						<div class="style-property-container">
-							<div>-fx-checked-color</div>
-							<div>Color</div>
-						</div>
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-check-box</em></p>
 
-						<div class="style-property-container">
-							<div>-fx-unchecked-color</div>
-							<div>Color</div>
-						</div>
-					</div>
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-checked-color</div>
+                        <div>Color</div>
+                    </div>
 
+                    <div class="style-property-container">
+                        <div>-jfx-unchecked-color</div>
+                        <div>Color</div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+        </div>
+    </section>
 
+    <section id="ComboBox">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Combo Box</h2>
+                </div>
 
-				</div>
-				<br /> <img class="shot" src="img/shots/shot_check.gif"
-					alt="JFX Check Box">
-			</div>
-		</section>
-
-		<section id="ComboBox">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Combo Box (JFXComboBox)</h2>
-					</div>
-
-					<p class="doc-text">JFoenix provides a combo box with the same
-						functionality as java combo box, however with an enhanced material
-						design and ripple effect on the selection list.</p>
-					<div style="padding: 15px;">
+                <p class="doc-text">JFoenix provides a combo box with the same
+                    functionality as java combo box, however with an enhanced material
+                    design and ripple effect on the selection list.</p>
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
 JFXComboBox&lt;Label&gt; jfxCombo = new JFXComboBox&lt;Label&gt;();
 
 jfxCombo.getItems().add(new Label("Java 1.8"));
@@ -333,39 +385,44 @@ jfxCombo.getItems().add(new Label("Java 1.6"));
 jfxCombo.getItems().add(new Label("Java 1.5"));
 
 jfxCombo.setPromptText("Select Java Version");
-
                         </pre>
-					</div>
+                </div>
 
-					<p class="doc-subtitle">Styling Properties :</p>
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-combo-box</em></p>
 
-					<div class="style-property-container">
-						<div>DEFAULT_STYLE_CLASS</div>
-						<div>jfx-combo-box</div>
-					</div>
-					<div>
-						<div class="style-property-container">
-							<div>the same as Java ComboBox</div>
-						</div>
-					</div>
-				</div>
-				<img class="shot" src="img/shots/shot_combo.gif" alt="JFX Combo Box">
-			</div>
-		</section>
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-focus-color</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-unfocus-color</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-label-float</div>
+                        <div>Boolean</div>
+                    </div>
 
-		<section id="Hamburger">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Hamburger (JFXHamburger)</h2>
-					</div>
-					<p class="doc-text">JFoenix includes the famous hamburger icon
-						component, and provides a sample four types of transofrmation that
-						can be applied to change its shape.</p>
-				</div>
-				<div style="padding: 15px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Hamburger">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Hamburger</h2>
+                </div>
+                <p class="doc-text">JFoenix includes the famous hamburger icon
+                    component, and provides a sample four types of transofrmation that
+                    can be applied to change its shape.</p>
+            </div>
+            <div style="padding: 15px;">
 					<pre
-						class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+                            class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
 JFXHamburger h1 = new JFXHamburger();
 HamburgerSlideCloseTransition burgerTask = new HamburgerSlideCloseTransition(h1);
 burgerTask.setRate(-1);
@@ -373,7 +430,9 @@ h1.addEventHandler(MouseEvent.MOUSE_PRESSED, (e)->{
 	burgerTask.setRate(burgerTask.getRate()*-1);
 	burgerTask.play();
 });
-
+                    </pre>
+                <div style="margin-left: -9px;">
+                <pre class="brush:css; gutter:true; smart_tabs:true;toolbar:false;">
 .jfx-hamburger-icon{
 	-fx-spacing: 5;
 	-fx-cursor: hand;
@@ -384,56 +443,333 @@ h1.addEventHandler(MouseEvent.MOUSE_PRESSED, (e)->{
 	-fx-background-color : #D63333;
 	-fx-background-radius : 5px;
 }
-                            </pre>
-				</div>
+</pre>
+                </div>
+            </div>
 
-				<p class="doc-subtitle">Styling Properties :</p>
-				<div>
-					<div class="style-property-container">
-						<div>DEFAULT_STYLE_CLASS</div>
-						<div>jfx-hamburger</div>
-					</div>
-				</div>
-				<br />
-				<p class="doc-subtitle">Available Transitions :</p>
-				<div>
-					<div class="style-property-container">
-						<div>Basic Close</div>
-					</div>
-					<div class="style-property-container">
-						<div>Slide Close</div>
-					</div>
-					<div class="style-property-container">
-						<div>Back Arrow</div>
-					</div>
-					<div class="style-property-container">
-						<div>Next Arrow</div>
-					</div>
-				</div>
-				<img class="shot" src="img/shots/shot_hamburger.gif"
-					alt="JFX Hamburger" />
-			</div>
-		</section>
+            <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-hamburger</em></p>
 
-		<section id="ListView">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">List View (JFXListView)</h2>
-					</div>
+            <p class="doc-subtitle">Available Transitions</p>
+            <div class="css-properties">
+                <div class="style-property-container">
+                    <div>Basic Close</div>
+                </div>
+                <div class="style-property-container">
+                    <div>Slide Close</div>
+                </div>
+                <div class="style-property-container">
+                    <div>Back Arrow</div>
+                </div>
+                <div class="style-property-container">
+                    <div>Next Arrow</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<p class="doc-text">JFoenix enhances java list view regarding
-						its design and functionality. It adds ripple effect to each item,
-						allows Expand/collapse operations on the list items, support a 2
-						level list view.</p>
+    <section id="InputFields">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Input Fields</h2>
+                </div>
 
-					<div style="padding: 15px;">
+                <p class="doc-text">JFoenix provides material design look and feel input fields(text field, password field,
+                    text area).</p>
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-JFXListView&lt;Label&gt; list = new JFXListView&lt;Label&gt;();		
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXTextField field = new JFXTextField();
+field.setLabelFloat(true);
+field.setPromptText("Floating prompt");
+
+JFXTextField validationField = new JFXTextField();
+validationField.setPromptText("With Validation..");
+RequiredFieldValidator validator = new RequiredFieldValidator();
+validator.setMessage("Input Required");
+validator.setAwsomeIcon(new Icon(AwesomeIcon.WARNING,"2em",";","error"));
+validationField.getValidators().add(validator);
+validationField.focusedProperty().addListener((o,oldVal,newVal)->{
+    if(!newVal) validationField.validate();
+});
+                        </pre>
+                </div>
+
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-text-field, jfx-password-field, jfx-text-area</em></p>
+
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-focus-color</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-unfocus-color</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-label-float</div>
+                        <div>Boolean</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-disable-animation</div>
+                        <div>Boolean</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ProgressBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Progress Bar</h2>
+                </div>
+
+                <p class="doc-text">JFoenix provides an enhanced progress bar
+                    design according to material design with the same functionality of
+                    java progress bar.</p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXProgressBar jfxBar = new JFXProgressBar();
+jfxBar.setPrefWidth(500);
+JFXProgressBar jfxBarInf = new JFXProgressBar();
+jfxBarInf.setPrefWidth(500);
+jfxBarInf.setProgress(-1.0f);
+Timeline timeline = new Timeline(
+    new KeyFrame(Duration.ZERO, new KeyValue(bar.progressProperty(), 0), new KeyValue(jfxBar.progressProperty(), 0)),
+    new KeyFrame(Duration.seconds(2), new KeyValue(bar.progressProperty(), 1), new KeyValue(jfxBar.progressProperty(), 1)));
+timeline.setCycleCount(Timeline.INDEFINITE);
+timeline.play();
+</pre>
+                </div>
+
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-progress-bar</em></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="RadioButton">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Radio Button</h2>
+                </div>
+                <p class="doc-text">JFoenix improves the design of java radio
+                    button by reimplementing its design according to google material
+                    design.</p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+final ToggleGroup group = new ToggleGroup();
+                    
+JFXRadioButton javaRadio = new JFXRadioButton("JavaFX");
+javaRadio.setPadding(new Insets(10));
+javaRadio.setToggleGroup(group);
+JFXRadioButton jfxRadio = new JFXRadioButton("JFoenix");
+jfxRadio.setPadding(new Insets(10));
+jfxRadio.setToggleGroup(group);
+</pre>
+                </div>
+
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-radio-button</em></p>
+
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-selected-color</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-unselected-color</div>
+                        <div>Color</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="Slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Slider</h2>
+                </div>
+
+                <p class="doc-text">JFoenix enhances java slider design
+                    according to google material design ( adds a bubble to show the
+                    current percentage of the slider ).</p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXSlider hor_left = new JFXSlider();
+hor_left.setMinWidth(500);
+JFXSlider hor_right = new JFXSlider();
+hor_left.setMinWidth(500);
+hor_left.setIndicatorPosition(IndicatorPosition.RIGHT);
+JFXSlider ver_left = new JFXSlider();
+ver_left.setMinHeight(500);
+ver_left.setOrientation(Orientation.VERTICAL);
+JFXSlider ver_right = new JFXSlider();
+ver_right.setMinHeight(500);
+ver_right.setOrientation(Orientation.VERTICAL);
+ver_right.setIndicatorPosition(IndicatorPosition.RIGHT);
+</pre>
+                </div>
+
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-slider</em></p>
+
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-indicator-position</div>
+                        <div>LEFT &nbsp;&nbsp; | &nbsp; &nbsp; RIGHT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Spinner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Spinner</h2>
+                </div>
+                <p class="doc-text">JFoenix introduces spinner that can be used
+                    to show work in progress. The spinner design is implemented
+                    according to google material design.</p>
+
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXSpinner spinner = new JFXSpinner();
+</pre>
+                </div>
+
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-spinner</em></p>
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-radius</div>
+                        <div>Number</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-starting-angle</div>
+                        <div>Number</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="TabPane">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Tab Pane</h2>
+                </div>
+
+                <p class="doc-text">JFoenix improves the design of java tab
+                    pane. It changes its design according to google material design,
+                    and add an animation when switching between tabs.</p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXTabPane tabPane = new JFXTabPane();
+tabPane.setPrefSize(300, 200);
+Tab tab = new Tab();
+tab.setText("Tab 1");
+tab.setContent(new Label("Content"));
+tabPane.getTabs().add(tab);
+</pre>
+                </div>
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-tab-pane</em></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ToggleButton">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Toggle Button</h2>
+                </div>
+
+                <p class="doc-text">JFoenix changes the design of java toggle
+                    button according to material design. It also introduces the
+                    component toggle node, that can toggle On/Off any node set as its
+                    graphic.</p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXToggleButton toggleButton = new JFXToggleButton();
+		
+JFXToggleNode node = new JFXToggleNode();		
+Icon value = new Icon("HEART");
+value.setPadding(new Insets(10));
+node.setGraphic(value);
+</pre>
+                </div>
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-toggle-button, jfx-toggle-node</em></p>
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-toggle-color</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-untoggle-color</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-toggle-line-color</div>
+                        <div>Color</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-untoggle-line-color</div>
+                        <div>Color</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="more-controls">
+
+    <section id="ListView">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">List View </h2>
+                </div>
+
+                <p class="doc-text">JFoenix enhances java list view regarding
+                    its design and functionality. It adds ripple effect to each item,
+                    allows Expand/collapse operations on the list items, support a 2
+                    level list view.</p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXListView&lt;Label&gt; list = new JFXListView&lt;Label&gt;();
 for(int i = 0 ; i < 4 ; i++) list.getItems().add(new Label("Item " + i));
 list.getStyleClass().add("mylistview");
 
+                        </pre>
+                    <div style="margin-left: -9px;">
+                    <pre
+                            class="brush:css; gutter:true; smart_tabs:true;toolbar:false;">
 .mylistview .scroll-bar:horizontal .track,
 .mylistview .scroll-bar:vertical .track{
 	-fx-background-color:transparent;
@@ -457,7 +793,7 @@ list.getStyleClass().add("mylistview");
 }
 .mylistview  .scroll-bar .increment-arrow,
 .mylistview  .scroll-bar .decrement-arrow{
-	-fx-shape:" ";	
+	-fx-shape:" ";
 	-fx-padding:0;
 }
 
@@ -469,303 +805,377 @@ list.getStyleClass().add("mylistview");
 }
 
                         </pre>
-					</div>
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-list-view</div>
-						</div>
+                    </div>
+                </div>
+                <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-list-view</em></p>
 
-					</div>
-					<img class="shot" src="img/shots/shot_list.gif" alt="JFX List View" />
-				</div>
-			</div>
-		</section>
+                <p class="doc-subtitle">Styling</p>
+                <div class="css-properties">
+                    <div class="style-property-container">
+                        <div>-jfx-cell-horizontal-margin</div>
+                        <div>Number</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-cell-vertical-margin</div>
+                        <div>Number</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-vertical-gap</div>
+                        <div>Number</div>
+                    </div>
+                    <div class="style-property-container">
+                        <div>-jfx-expanded</div>
+                        <div>Boolean</div>
+                    </div>
+                </div>
 
-		<section id="InputField">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Input Fields</h2>
-					</div>
-					<p class="doc-text">JFoenix enhances the java input fields
-						design ( by adding material design animation and style ) and adds
-						a validation functionality. Input fields are : JFXTextFields,
-						JFXPasswordField.</p>
+            </div>
+        </div>
+    </section>
 
-					<div style="padding: 15px;">
+    <section id="TreeTableView">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Tree Table View </h2>
+                </div>
+
+                <p class="doc-text">JFoenix enhances java tree table view regarding
+                    its design and functionality. It adds editing, filtering and grouping capabilities
+                    on the table items.</p>
+
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-JFXTextField field = new JFXTextField();                    
-field.setPromptText("Type Something");                    
-                  
-JFXTextField validationField = new JFXTextField();                    
-validationField.setPromptText("With Validation..");                    
-RequiredFieldValidator validator = new RequiredFieldValidator();                    
-validator.setMessage("Input Required");                    
-validator.setAwsomeIcon(new Icon(AwesomeIcon.WARNING,"2em",";","error"));                    
-validationField.getValidators().add(validator);                    
-validationField.focusedProperty().addListener((o,oldVal,newVal)->{                    
-    if(!newVal) validationField.validate();                    
-});
-</pre>
-					</div>
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+			JFXTreeTableColumn&lt;User, String&gt; deptColumn = new JFXTreeTableColumn&lt;&gt;("Department");
+			deptColumn.setPrefWidth(150);
+			deptColumn.setCellValueFactory((TreeTableColumn.CellDataFeatures&lt;User, String&gt; param) -&gt;{
+				if(deptColumn.validateValue(param)) return param.getValue().getValue().department;
+				else return deptColumn.getComputedValue(param);
+			});
 
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-text-field</div>
-						</div>
-						<div class="style-property-container">
-							<div>-fx-focus-color</div>
-							<div>Color</div>
-						</div>
-						<div class="style-property-container">
-							<div>-fx-unfocus-color</div>
-							<div>Color</div>
-						</div>
+			JFXTreeTableColumn&lt;User, String&gt; empColumn = new JFXTreeTableColumn&lt;&gt;("Employee");
+			empColumn.setPrefWidth(150);
+			empColumn.setCellValueFactory((TreeTableColumn.CellDataFeatures&lt;User, String&gt; param) -&gt;{
+				if(empColumn.validateValue(param)) return param.getValue().getValue().userName;
+				else return empColumn.getComputedValue(param);
+			});
+
+			JFXTreeTableColumn&lt;User, String&gt; ageColumn = new JFXTreeTableColumn&lt;&gt;("Age");
+			ageColumn.setPrefWidth(150);
+			ageColumn.setCellValueFactory((TreeTableColumn.CellDataFeatures&lt;User, String&gt; param) -&gt;{
+				if(ageColumn.validateValue(param)) return param.getValue().getValue().age;
+				else return ageColumn.getComputedValue(param);
+			});
 
 
-					</div>
+			ageColumn.setCellFactory((TreeTableColumn&lt;User, String&gt; param) -&gt; new GenericEditableTreeTableCell,
+                            String&gt;(new TextFieldEditorBuilder()));
+			ageColumn.setOnEditCommit((CellEditEvent&lt;User, String&gt; t)-&gt;{
+				((User) t.getTreeTableView().getTreeItem(t.getTreeTablePosition().getRow()).getValue()).age
+                            .set(t.getNewValue());
+			});
 
-				</div>
-				<img class="shot" src="img/shots/shot_inputs.gif" alt="Input Fields"
-					style="margin-top: 30px;">
-			</div>
-		</section>
+			empColumn.setCellFactory((TreeTableColumn&lt;User, String&gt; param) -&gt; new GenericEditableTreeTableCell,
+                            String&gt;(new TextFieldEditorBuilder()));
+			empColumn.setOnEditCommit((CellEditEvent&lt;User, String&gt; t)-&gt;{
+				((User) t.getTreeTableView().getTreeItem(t.getTreeTablePosition().getRow()).getValue())
+                            .userName.set(t.getNewValue());
+			});
 
-		<section id="ProgressBar">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Progress Bar (JFXProgressBar)</h2>
-					</div>
-
-					<p class="doc-text">JFoenix provides an enhanced progress bar
-						design according to material design with the same functionality of
-						java progress bar.</p>
+			deptColumn.setCellFactory((TreeTableColumn, String&gt; param) -&gt;
+                            new GenericEditableTreeTableCell&lt;User, String&gt;(new TextFieldEditorBuilder()));
+			deptColumn.setOnEditCommit((CellEditEvent&lt;User, String&gt; t)-&gt;{
+				((User) t.getTreeTableView().getTreeItem(t.getTreeTablePosition().getRow()).getValue()).department.
+                            set(t.getNewValue());
+			});
 
 
+			// data
+			ObservableList&lt;User&gt; users = FXCollections.observableArrayList();
+			users.add(new User("Computer Department", "23","CD 1"));
+			users.add(new User("Sales Department", "22","Employee 1"));
+			users.add(new User("Sales Department", "22","Employee 2"));
+			users.add(new User("Sales Department", "25","Employee 4"));
+			users.add(new User("Sales Department", "25","Employee 5"));
+			users.add(new User("IT Department", "42","ID 2"));
+			users.add(new User("HR Department", "22","HR 1"));
+			users.add(new User("HR Department", "22","HR 2"));
+
+			for(int i = 0 ; i&lt; 40000; i++){
+				users.add(new User("HR Department", i%10+"","HR 2" + i));
+			}
+			for(int i = 0 ; i&lt; 40000; i++){
+				users.add(new User("Computer Department", i%20+"","CD 2" + i));
+			}
+
+			for(int i = 0 ; i&lt; 40000; i++){
+				users.add(new User("IT Department", i%5+"","HR 2" + i));
+			}
+
+			// build tree
+			final TreeItem&lt;User&gt; root = new RecursiveTreeItem&lt;User&gt;(users, RecursiveTreeObject::getChildren);
+
+			JFXTreeTableView&lt;User&gt; treeView = new JFXTreeTableView&lt;User&gt;(root, users);
+			treeView.setShowRoot(false);
+			treeView.setEditable(true);
+			treeView.getColumns().setAll(deptColumn, ageColumn, empColumn);
+
+			JFXTextField filterField = new JFXTextField();
+			filterField.textProperty().addListener((o,oldVal,newVal)-&gt;{
+				treeView.setPredicate(user -&gt; user.getValue().age.get().contains(newVal)
+                            || user.getValue().department.get().contains(newVal)
+                            || user.getValue().userName.get().contains(newVal));
+			});
+
+			Label size = new Label();
+			size.textProperty().bind(Bindings.createStringBinding(()-&gt;treeView.getCurrentItemsCount()+"",
+                            treeView.currentItemsCountProperty()));
 
 
-					<div style="padding: 15px;">
+                        </pre>
+                    <pre
+                            class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+
+class User extends RecursiveTreeObject&lt;User&gt;{
+    StringProperty userName;
+    StringProperty age;
+    StringProperty department;
+
+    public User(String department, String age, String userName) {
+        this.department = new SimpleStringProperty(department) ;
+        this.userName = new SimpleStringProperty(userName);
+        this.age = new SimpleStringProperty(age);
+    }
+}
+
+                        </pre>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="Pickers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Pickers </h2>
+                </div>
+
+                <p class="doc-text">JFoenix provides material design pickers for date/time and color.</p>
+
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-JFXProgressBar jfxBar = new JFXProgressBar();
-jfxBar.setPrefWidth(500);
-JFXProgressBar jfxBarInf = new JFXProgressBar();
-jfxBarInf.setPrefWidth(500);
-jfxBarInf.setProgress(-1.0f);
-Timeline timeline = new Timeline(
-    new KeyFrame(Duration.ZERO, new KeyValue(bar.progressProperty(), 0), new KeyValue(jfxBar.progressProperty(), 0)),
-    new KeyFrame(Duration.seconds(2), new KeyValue(bar.progressProperty(), 1), new KeyValue(jfxBar.progressProperty(), 1)));
-timeline.setCycleCount(Timeline.INDEFINITE);
-timeline.play();
-</pre>
-					</div>
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXDatePicker blueDatePicker = new JFXDatePicker();
+blueDatePicker.setDefaultColor(Color.valueOf("#3f51b5"));
+blueDatePicker.setOverLay(true);
+blueDatePicker.setShowTime(true);
 
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-progress-bar</div>
-						</div>
-					</div>
+JFXColorPicker colorPicker = new JFXColorPicker();
+                        </pre>
+                </div>
+            </div>
+            <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-date-picker, jfx-color-picker</em></p>
 
+            <p class="doc-subtitle">Styling</p>
+            <div class="css-properties">
+                <div class="style-property-container">
+                    <div>-jfx-default-color</div>
+                    <div>Color</div>
+                </div>
+                <div class="style-property-container">
+                    <div>-jfx-overlay</div>
+                    <div>Boolean</div>
+                </div>
+            </div>
 
-				</div>
-				<img class="shot" src="img/shots/shot_progress.gif"
-					alt="JFX Progress Bar" style="margin-top: 30px;">
-			</div>
-		</section>
+        </div>
+    </section>
 
-		<section id="RadioButton">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Radio Button (JFXRadioButton)</h2>
-					</div>
-					<p class="doc-text">JFoenix improves the design of java radio
-						button by reimplementing its design according to google material
-						design.</p>
+    <section id="Dialog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Dialog </h2>
+                </div>
 
-					<div style="padding: 15px;">
+                <p class="doc-text">JFoenix provides a material design dialogs implementation with
+                    a several transitions.</p>
+
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-final ToggleGroup group = new ToggleGroup();
-                    
-JFXRadioButton javaRadio = new JFXRadioButton("JavaFX");
-javaRadio.setPadding(new Insets(10));
-javaRadio.setToggleGroup(group);
-JFXRadioButton jfxRadio = new JFXRadioButton("JFoenix");
-jfxRadio.setPadding(new Insets(10));
-jfxRadio.setToggleGroup(group);
-</pre>
-					</div>
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXDialog dialog = new JFXDialog();
+dialog.setContent(new Label("Content"));
+button.setOnAction((action)->dialog.show(rootStackPane));
+                        </pre>
+                </div>
+            </div>
+            <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-dialog</em></p>
 
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-radio-button</div>
-						</div>
-					</div>
+            <p class="doc-subtitle">Styling</p>
+            <div class="css-properties">
+                <div class="style-property-container">
+                    <div>-jfx-dialog-transition</div>
+                    <div>CENTER | TOP | RIGHT | BOTTOM | LEFT</div>
+                </div>
+            </div>
 
-				</div>
-				<img class="shot" src="img/shots/shot_radio.gif"
-					alt="JFX Radio Button" style="margin-top: 30px;">
-			</div>
-		</section>
+        </div>
+    </section>
 
-		<section id="Slider">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Slider (JFXSlider)</h2>
-					</div>
+    <section id="Popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Popup </h2>
+                </div>
 
-					<p class="doc-text">JFoenix enhances java slider design
-						according to google material design ( adds a bubble to show the
-						current percentage of the slider ).</p>
+                <p class="doc-text">JFoenix adds a custom popup with material design animation.</p>
 
-					<div style="padding: 15px;">
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-JFXSlider hor_left = new JFXSlider();
-hor_left.setMinWidth(500);
-JFXSlider hor_right = new JFXSlider();
-hor_left.setMinWidth(500);
-hor_left.setIndicatorPosition(IndicatorPosition.RIGHT);
-JFXSlider ver_left = new JFXSlider();
-ver_left.setMinHeight(500);
-ver_left.setOrientation(Orientation.VERTICAL);
-JFXSlider ver_right = new JFXSlider();
-ver_right.setMinHeight(500);
-ver_right.setOrientation(Orientation.VERTICAL);
-ver_right.setIndicatorPosition(IndicatorPosition.RIGHT);
-</pre>
-					</div>
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-slider</div>
-						</div>
-					</div>
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+StackPane root = new StackPane();
+JFXListView&lt;String&gt; list = new JFXListView&lt;String&gt;();
+for(int i = 1 ; i &lt; 5 ; i++) list.getItems().add("Item " + i);
 
-					<img class="shot" src="img/shots/shot_slider.gif" alt="JFX Slider">
-				</div>
-		</section>
+JFXHamburger burger = new JFXHamburger();
+burger.setPadding(new Insets(10,5,10,5));
+JFXRippler popupSource = new JFXRippler(burger,RipplerMask.CIRCLE,RipplerPos.BACK);
 
-		<section id="Spinner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Spinner (JFXSpinner)</h2>
-					</div>
-					<p class="doc-text">JFoenix introduces spinner that can be used
-						to show work in progress. The spinner design is implemented
-						according to google material design.</p>
+JFXPopup popup = new JFXPopup();
+popup.setContent(list);
+popup.setPopupContainer(root);
+popup.setSource(popupSource);
+popupSource.setOnMouseClicked((e)-&gt; popup.show(PopupVPosition.TOP, PopupHPosition.LEFT));
+                        </pre>
+                </div>
+            </div>
+            <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-popup</em></p>
+        </div>
+    </section>
 
+    <section id="Drawer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Drawer </h2>
+                </div>
 
-					<div style="padding: 15px;">
+                <p class="doc-text">JFoenix provides a drawer implementation to JavaFX, the drawer can be drawn
+                    from different sides.</p>
+
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-JFXSpinner spinner = new JFXSpinner();
-</pre>
-					</div>
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-spinner</div>
-						</div>
-					</div>
-				</div>
-				<img class="shot" src="img/shots/shot_spinner.gif" alt="JFX Spinner"
-					style="margin-top: 30px;">
-			</div>
-		</section>
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXDrawer leftDrawer = new JFXDrawer();
+StackPane leftDrawerPane = new StackPane();
+leftDrawerPane.getStyleClass().add("red-400");
+leftDrawerPane.getChildren().add(new JFXButton("Left Content"));
+leftDrawer.setSidePane(leftDrawerPane);
+leftDrawer.setDefaultDrawerSize(150);
+leftDrawer.setOverLayVisible(false);
+leftDrawer.setResizableOnDrag(true);
+                        </pre>
+                </div>
+            </div>
+            <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-drawer</em></p>
 
+        </div>
+    </section>
 
-		<section id="TabPane">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Tab Pane (JFXTabPane)</h2>
-					</div>
+    <section id="Decorator">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Decorator</h2>
+                </div>
 
-					<p class="doc-text">JFoenix improves the design of java tab
-						pane. It changes its design according to google material design,
-						and add an animation when switching between tabs.</p>
+                <p class="doc-text">JFoenix provides a material design window decorator instead of the default
+                operating system decorator.</p>
 
-					<div style="padding: 15px;">
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-JFXTabPane tabPane = new JFXTabPane();
-tabPane.setPrefSize(300, 200);
-Tab tab = new Tab();
-tab.setText("Tab 1");
-tab.setContent(new Label("Content"));
-tabPane.getTabs().add(tab);
-</pre>
-					</div>
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-tab-pane</div>
-						</div>
-					</div>
-				</div>
-				<img class="shot" src="img/shots/shot_tabs.gif" alt="JFX Tab Pane">
-			</div>
-		</section>
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXDecorator decorator = new JFXDecorator(stage, content);
+decorator.setCustomMaximize(true);
+Scene scene = new Scene(decorator, 800, 850);
 
-		<section id="ToggleButton">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Toggle Button</h2>
-					</div>
+                        </pre>
+                </div>
+            </div>
+            <p class="doc-subtitle">Default CSS Class  <em class="default-css">jfx-decorator</em></p>
+        </div>
+    </section>
 
-					<p class="doc-text">JFoenix changes the design of java toggle
-						button according to material design. It also introduces the
-						component toggle node, that can toggle On/Off any node set as its
-						graphic.</p>
+    <section id="Masonry">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Masonry Pane </h2>
+                </div>
 
-					<div style="padding: 15px;">
+                <p class="doc-text">JFoenix provides a Masonry pane implementation with two layouts
+                    (Masonry | Bin packing).</p>
+
+                <div style="padding: 15px;">
 						<pre
-							class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
-JFXToggleButton toggleButton = new JFXToggleButton();
-		
-JFXToggleNode node = new JFXToggleNode();		
-Icon value = new Icon("HEART");
-value.setPadding(new Insets(10));
-node.setGraphic(value);
-</pre>
-					</div>
-					<p class="doc-subtitle">Styling Properties :</p>
-					<div>
-						<div class="style-property-container">
-							<div>DEFAULT_STYLE_CLASS</div>
-							<div>jfx-toggle-button &nbsp;&nbsp; | &nbsp;&nbsp;
-								jfx-toggle-node</div>
-						</div>
-					</div>
-				</div>
-				<img class="shot" src="img/shots/shot_toggle.gif"
-					alt="JFX Toggle Button" style="margin-top: 15px;">
-			</div>
-		</section>
-	</div>
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXMasonryPane masonryPane = new JFXMasonryPane();
+                        </pre>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="Badge">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Badge </h2>
+                </div>
 
-	<div id="license-container">
-		<section id="License">
-			<div class="container">
-				<div class="row">
+                <p class="doc-text">JFoenix provides a badge control that can be added on other nodes on the scene.</p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXBadge badge = JFXBadge(node);
+                        </pre>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="SnackBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">SnackBar </h2>
+                </div>
+
+                <p class="doc-text">JFoenix provides a snack bar implementation that can be used
+                    to visualize notifications.</p>
+
+                <div style="padding: 15px;">
+						<pre
+                                class="brush:java; gutter:true; smart_tabs:true;toolbar:false;">
+JFXSnackbar bar = new JFXSnackbar(pane);
+bar.enqueue(new SnackbarEvent("Notification Msg"))
+                        </pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<div id="license-container">
+    <section id="License">
+        <div class="container">
+            <div class="row">
 					<pre>
  Apache License
                            Version 2.0, January 2004
@@ -969,59 +1379,62 @@ node.setGraphic(value);
    See the License for the specific language governing permissions and
    limitations under the License.
 </pre>
-				</div>
-			</div>
-		</section>
-	</div>
+            </div>
+        </div>
+    </section>
+</div>
 
 
-	<div id="footer">
-		<footer>
-			<div class="container">
-				<div class="row">
-					<ul class="list-inline quicklinks">
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Disclaimer</a></li>
-					</ul>
-					<span class="copyright">Copyright &copy; JFoenix-2015</span>
-				</div>
-			</div>
-		</footer>
-	</div>
+<div id="footer">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <ul class="list-inline quicklinks">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+                <span class="copyright">Copyright &copy; JFoenix-2015</span>
+            </div>
+        </div>
+    </footer>
+</div>
 
 
-	<script src="js/documentation.js"></script>
-	<!-- jQuery -->
-	<script src="js/jquery.js"></script>
+<script src="js/documentation.js"></script>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
 
-	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
-	<!-- Plugin JavaScript -->
-	<script
-		src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<script src="js/classie.js"></script>
-	<script src="js/cbpAnimatedHeader.js"></script>
+<!-- Plugin JavaScript -->
+<script
+        src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
 
-	<!-- Custom Theme JavaScript -->
-	<script src="js/agency.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/agency.js"></script>
 
-	<script type="text/javascript"
-		src="syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
-	<script type="text/javascript"
-		src="syntaxhighlighter_3.0.83/scripts/shBrushJava.js"></script>
+<script type="text/javascript"
+        src="syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+<script type="text/javascript"
+        src="syntaxhighlighter_3.0.83/scripts/shBrushJava.js"></script>
+<script type="text/javascript"
+        src="syntaxhighlighter_3.0.83/scripts/shBrushCss.js"></script>
 
-	<script type="text/javascript">
-        SyntaxHighlighter.all()
-    </script>
 
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-67387228-1', 'auto');
-  ga('send', 'pageview');
+<script type="text/javascript">
+    SyntaxHighlighter.all()
+</script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-67387228-1', 'auto');
+    ga('send', 'pageview');
 </script>
 
 </body>

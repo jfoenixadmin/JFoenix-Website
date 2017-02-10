@@ -85,10 +85,14 @@ body {
 	clear: both;
 }
 
-#download{
+#download-link{
 	padding-left: 5%;
 }
 
+#sideList{
+    overflow-y: auto;
+    height: 100%;
+}
 
 #github{
 	margin-left: 100px;
@@ -362,8 +366,11 @@ hr {
     border-width: 2px;
 }
 
-section:nth-child(even) {
-    background: #EEE;
+/*section:nth-child(even) {*/
+    /*background: #EEE;*/
+/*}*/
+section{
+    background : #FAFAFA;
 }
 
 .text{
@@ -1279,7 +1286,7 @@ body {
     float: left;
 }
 #side-menu-holder > ul, #search-menu-holder > ul {
-	margin-bottom: 300px;
+	margin-bottom: 100px;
 	border: 1px solid #222;
 	@include box-shadow(0 0 25px #000);
     width: 100%;
@@ -1391,8 +1398,19 @@ body {
 }
 
 .style-property-container  div:first-child{
-	width: 200px;
-	font-weight:bold;
+    font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 400px;
+}
+.style-property-container  div:last-child{
+    color: #2196f3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: italic;
 }
 
 .syntaxhighlighter table td.code .line, .syntaxhighlighter .line.alt2, .syntaxhighlighter, .syntaxhighlighter .line.alt1{
@@ -1411,4 +1429,25 @@ body {
 	color      : rgba(71, 71, 71, 0.43);
 	text-decoration: none;
 }
-		
+
+.css-properties{
+    background-color: #eeeeee;
+    border-radius: 3px;
+    overflow-x: auto;
+    padding: 14px 0px;
+    word-wrap: break-word;
+}
+
+.css-properties .style-property-container:first-child{
+    padding:0px 20px 20px 20px;
+}
+.css-properties .style-property-container:last-child{
+    padding:20px 20px 24px 20px;
+}
+
+.default-css{
+    color: #3f8c4bcc;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 40px;
+}
