@@ -26,59 +26,46 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style type="text/css">
-        .auto-style1 {
-            margin-right: 0;
-        }
-    </style>
 </head>
-<body id="page-top" class="index">
-<nav id="top" class="navbar navbar-default navbar-fixed-top">
+<body id="page-top" class="index" style="padding-top: 50px">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <div class="logo">
-                <a id="title-top" class="navbar-brand page-scroll" href="#header"><img src="img/logo-JFX.png"
-                                                                                       alt="JFoeniX"></a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> <span
-                        class="icon-bar"></span> <span class="icon-bar"></span> <span
-                        class="icon-bar"></span>
-                </button>
-            </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="img/logo-JFX.png" alt="JFoeniX" style="height: 100%"></a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse"
-             id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden"><a href="index.html"></a></li>
-                <li><a class="page-scroll" href="index.html#start">Get
-                    Started</a></li>
-                <li><a class="page-scroll" href="index.html#licenseLink">license</a>
-                </li>
-                <li><a class="page-scroll" href="documentation.html">Documentation</a>
-                </li>
-                <li class="dropdown" onselectstart="return false;"
-                    id="aboutLink"><a class="dropdown-toggle"
-                                      data-toggle="dropdown">About <b class="caret"></b></a>
-                    <ul class="dropdown-menu" id="dropdown">
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a class="page-scroll" href="index.html#start">Get Started</a></li>
+                <li><a class="page-scroll" href="documentation.html#License">License</a></li>
+                <li><a class="page-scroll" href="documentation.html">Documentation</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
                         <li><a href="team.html">Team</a></li>
-                        <li class="active"><a href="sponsor.html">Sponsors</a></li>
+                        <li><a href="sponsor.html">Sponsors</a></li>
                     </ul>
                 </li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li class="social-buttons last"><a href="#" class="icons"><i
-                        class="fa fa-twitter"></i></a></li>
-
-                <li class="social-buttons last"><a href="#" class="icons"><i
-                        class="fa fa-github"></i></a></li>
             </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+            <form class="navbar-form navbar-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="Search Documentation" name="search" id="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/jfoenixadmin/JFoenix"><i class="fa fa-fw fa-github" style="font-size: 1.35em"></i> GitHub</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 
 <div class="sections">
